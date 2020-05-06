@@ -1,5 +1,5 @@
 # calculadoraPopular
-CALCULADORA POPULAR 2.0
+CALCULADORA POPULAR 2.1
 
 - Por linha de comando (CLI).
 - Através de passagem por parâmetros.
@@ -10,6 +10,7 @@ CALCULADORA POPULAR 2.0
 
 UPGRADE 2ª VERSÃO
 - Foi adicionado "Cálculo De Índice De Massa Corporal (IMC)".
+- Correção do sinal de multiplicação "*" para "x", o Prompt do Linux não reconhece o sinal "*" como argumento.
 
 COMO EXECUTAR NO TERMINAL WINDOWS (CMD):
 - calculadoraPopular.exe [ENTER]
