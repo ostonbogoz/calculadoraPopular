@@ -10,7 +10,7 @@ CALCULADORA POPULAR 2.1
 
 UPGRADE 2ª VERSÃO
 - Foi adicionado "Cálculo De Índice De Massa Corporal (IMC)".
-- Correção do sinal de multiplicação "*" para "x", o Prompt do Linux não reconhece o sinal "*" como argumento.
+- Correção do sinal de multiplicação para "x", o Prompt do Linux não reconhece o antigo sinal como argumento.
 
 COMO EXECUTAR NO TERMINAL WINDOWS (CMD):
 - calculadoraPopular.exe [ENTER]
