@@ -32,7 +32,6 @@ void main(List<String> argumentos)
     print("---------------------------------------- ||| ERROR ||| ----------------------------------------");
     print("                                     !!! CAMPOS VAZIOS !!!");
     print("-----------------------------------------------------------------------------------------------");
-    print("");
   }
 
   else if(argumentos.length != 3 && argumentos.length != 5)
@@ -42,7 +41,6 @@ void main(List<String> argumentos)
     print("---------------------------------------- ||| ERROR ||| ----------------------------------------");
     print("                            !!! CAMPOS IMCOMPLETOS OU EXCEDIDOS !!!");
     print("-----------------------------------------------------------------------------------------------");
-    print("");
   }
 
   else
@@ -74,7 +72,7 @@ void main(List<String> argumentos)
         print("-----------------------------------------------------------------------------------------------");
       }
 
-      else if(calcular.operador1 == "*")
+      else if(calcular.operador1 == "x")
       {
         impressaoPadrao();
 
@@ -166,7 +164,6 @@ void main(List<String> argumentos)
         print("---------------------------------------- ||| ERROR ||| ----------------------------------------");
         print("                                   !!! OPERADOR INCORRETO !!!");
         print("-----------------------------------------------------------------------------------------------");
-        print("");
       }
     }
 
@@ -181,7 +178,7 @@ void main(List<String> argumentos)
         operando3 : double.parse(argumentos[4])
       );
 
-      if(calcular.operador1 == "%" && calcular.operador2 == "*")
+      if(calcular.operador1 == "%" && calcular.operador2 == "x")
       {
         impressaoPadrao();
 
@@ -197,7 +194,6 @@ void main(List<String> argumentos)
         print("---------------------------------------- ||| ERROR ||| ----------------------------------------");
         print("                                   !!! OPERADOR INCORRETO !!!");
         print("-----------------------------------------------------------------------------------------------");
-        print("");
       }
     }
   }
@@ -208,7 +204,7 @@ void impressaoPadrao()
 {
   limpaTelaTerminal();
 
-  print("------------------------------- ||| CALCULADORA POPULAR Vr2 ||| -------------------------------");
+  print("------------------------------- ||| CALCULADORA POPULAR V2.1 ||| ------------------------------");
   print("CONTATO: ostonprata@gmail.com | CODIGOS FONTES: github.com/ostonprata");
   print("REDES SOCIAIS: YouTube: Oston Prata | twitter.com/ostonprata | www.instagram.com/ostonprata");
   print("");
@@ -219,18 +215,17 @@ void impressaoPadrao()
   print("OPERADORES:");
   print("'+' => SOMA");
   print("'-' => SUBTRACAO");
-  print("'*' => MULTIPLICACAO");
+  print("'x' => MULTIPLICACAO");
   print("'/' => DIVISAO");
   print("'!' => RESTO DA DIVISAO");
   print("'%' => PORCENTO => 20 % 500 = (100) <= Representa 20% dos 500");
   print("'@' => PERCENTAGEM => 100 @ 500 = (20%) <= Representa os 20 dos 500");
   print("");
   print("JUROS COMPOSTOS (JUROS SOBRE JUROS):");
-  print("20 % 500 * 12 = (4458) <= Resultado do total de 20% sobre 500 em 12 vezes");
-  print("20 % 500 * 12 = (4458) e (891%) <= Resultado da porcentagem total de 20% sobre 500 em 12 vezes");
+  print("20 % 500 x 12 = (4458) <= Resultado do total de 20% sobre 500 em 12 vezes");
+  print("20 % 500 x 12 = (4458) e (891%) <= Resultado da porcentagem total de 20% sobre 500 em 12 vezes");
   print("");
   print("CÁLCULO DA MASSA CORPORAL (IMC):");
   print("peso imc altura => 78 imc 1.77 = 24.577867151840145 (Peso Ideal)");
   print("-----------------------------------------------------------------------------------------------");
-  print("");  
-}
+ }
